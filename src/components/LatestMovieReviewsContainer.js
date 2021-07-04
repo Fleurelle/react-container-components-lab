@@ -19,7 +19,7 @@ class LatestMovieReviewsContainer extends Component {
         .then(res => res.json())
         .then(data => {
             this.setState({
-                reviews:data.results
+                reviews: data.results
             })
         })
     }
